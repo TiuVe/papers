@@ -1,3 +1,7 @@
+echo "git setting..."
+echo "git config --global user.useConfigOnly true"
+git config --global user.useConfigOnly true
+
 echo "------------------TIUVE---------------------"
 echo "git pull...."
 git pull
