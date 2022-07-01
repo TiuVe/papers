@@ -3,6 +3,9 @@ echo "git config --global user.useConfigOnly true"
 git config --global user.useConfigOnly true
 
 echo "------------------TIUVE---------------------"
+time=`date "+%Y%m%d-%H%M"`
+echo "exec script at $time!"
+
 echo "git pull...."
 git pull
 echo "git status:"
@@ -10,7 +13,6 @@ git status
 echo "git add ."
 git add .
 
-time=`date "+%Y%m%d-%H%M"`
 echo "git commit -m $time"
 git commit -m "$time"
 echo "git push..."
