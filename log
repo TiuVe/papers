@@ -1,11 +1,10 @@
 git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
-------------------TConnection closed by 140.82.113.3 port 22
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
+------------------TIUVE---------------------
+exec script at 20220703-0337!
+git pull....
+Already up to date.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -17,8 +16,3 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
-rtions(+), 1 deletion(-)
-git push...
-To github.com:TiuVe/papers.git
-   f4b2b8f..090004c  main -> main
-push git success!
