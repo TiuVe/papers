@@ -4,7 +4,11 @@ error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
 exec script at 20220706-0951!
 git pull....
-Already up to date.
+Connection closed by 140.82.113.3 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -16,3 +20,5 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+  4458c6a..368a8a0  main -> main
+push git success!
