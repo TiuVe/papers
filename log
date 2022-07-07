@@ -1,22 +1,22 @@
 git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
-------------------Thint: Pulling without specifying how to reconcile divergent branches is
-hint: discouraged. You can squelch this message by running one of the following
-hint: commands sometime before your next pull:
-hint: 
-hint:   git config pull.rebase false  # merge (the default strategy)
-hint:   git config pull.rebase true   # rebase
-hint:   git config pull.ff only       # fast-forward only
-hint: 
-hint: You can replace "git config" with "git config --global" to set a default
-hint: preference for all repositories. You can also pass --rebase, --no-rebase,
-hint: or --ff-only on the command line to override the configured default per
-hint: invocation.
-Already up to date.
+------------------Thint: Pulling without specifying how to reconcile divergent branches warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit df8104a6ddea30d178978edc7ff68dc8a7853fe6.
+error: Your local changes to the following files would be overwritten by merge:
+	log
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff df8104a6ddea30d178978edc7ff68dc8a7853fe6
+output, run
+$ git reset --hard
+to recover.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
+Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
@@ -26,3 +26,12 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+ directory)
+	modified:   log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add .
+git commit -m 20220708-0621
+[main 78b4c00] 20220708-0621
+ 1 file changed, 13 insertions(+), 16 deletions(-)
+git push...
