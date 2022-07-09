@@ -1,22 +1,21 @@
 git setting...
 git config --global user.useConfigOnly true
-error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20220710-0039!
+exec script at 20220710-0040!
 git pull....
-warning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit 14e204014ffa1f2214455dfd5a12002b2bbe004a.
-error: Your local changes to the following files would be overwritten by merge:
-	log
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
-$ git diff 14e204014ffa1f2214455dfd5a12002b2bbe004a
-output, run
-$ git reset --hard
-to recover.
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+Already up to date.
 git status:
 On branch main
 Your branch is ahead of 'origin/main' by 1 commit.
