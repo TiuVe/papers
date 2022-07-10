@@ -4,18 +4,11 @@ git config --global user.useConfigOnly true
 exec script at 20220710-1457!
 git pull....
 warning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit 27ef43e4c553241d2359b8621270871c0e363b3d.
-error: Your local changes to the following files would be overwritten by merge:
-	log
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
-$ git diff 27ef43e4c553241d2359b8621270871c0e363b3d
-output, run
-$ git reset --hard
-to recover.
+fast-forwarding your client_loop: send disconnect: Broken pipe
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -27,3 +20,17 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+t staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add .
+git commit -m 20220710-1452
+[main e643bc0] 20220710-1452
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+git push...
+To github.com:TiuVe/papers.git
+   e774c19..e643bc0  main -> main
+push git success!
