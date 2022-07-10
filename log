@@ -3,7 +3,19 @@ git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
 exec script at 20220710-1457!
 git pull....
-Already up to date.
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 27ef43e4c553241d2359b8621270871c0e363b3d.
+error: Your local changes to the following files would be overwritten by merge:
+	log
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 27ef43e4c553241d2359b8621270871c0e363b3d
+output, run
+$ git reset --hard
+to recover.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
