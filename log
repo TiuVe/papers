@@ -1,13 +1,19 @@
 git setting...
 git config --global user.useConfigOnly true
-------------------TIUVE---------------------
-exec script at 20220711-1217!
-git pull....
-Connection closed by 140.82.113.3 port 22
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
+error: could not lock config file /Users/dzb/.gitconfig: File exists
+------------------Twarning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 0aa4796aa4222f2755b2671186e1a2ef37a663af.
+error: Your local changes to the following files would be overwritten by merge:
+	log
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 0aa4796aa4222f2755b2671186e1a2ef37a663af
+output, run
+$ git reset --hard
+to recover.
 git status:
 On branch main
 Your branch is ahead of 'origin/main' by 1 commit.
@@ -20,28 +26,3 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
-n'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-git add .
-git commit -m 20220711-1216
-[main 65f4f50] 20220711-1216
- 1 file changed, 43 insertions(+), 30 deletions(-)
- rewrite log (63%)
-git push...
-dified:   log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-git add .
-git commit -m 20220711-1217
-[main 45e0132] 20220711-1217
- 1 file changed, 0 insertions(+), 0 deletions(-)
-git push...
-To github.com:TiuVe/papers.git
-   0aa4796..45e0132  main -> main
-push git success!
