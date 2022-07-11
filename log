@@ -1,9 +1,11 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220711-1446!
+exec script at 20220711-1449!
 git pull....
-Already up to date.
+Connection to github.com closed by remote host.
+Your configuration specifies to merge with the ref 'refs/heads/main'
+from the remote, but no such ref was fetched.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
