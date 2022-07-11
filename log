@@ -3,7 +3,6 @@ git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
 exec script at 20220711-1510!
 git pull....
-kex_exchange_identification: Connection closed by remote host
 Connection closed by 140.82.113.3 port 22
 fatal: Could not read from remote repository.
 
@@ -11,7 +10,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
+Your branch is ahead of 'origin/main' by 3 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
@@ -21,3 +20,9 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+ded to commit (use "git add" and/or "git commit -a")
+git add .
+git commit -m 20220711-1510
+[main eaa2470] 20220711-1510
+ 1 file changed, 4 insertions(+), 8 deletions(-)
+git push...
