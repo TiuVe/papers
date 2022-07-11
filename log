@@ -4,21 +4,23 @@ git config --global user.useConfigOnly true
 exec script at 20220711-1020!
 git pull....
 warning: fetch updated the current branch head.
+fast-forwarding your workingwarning: fetch updated the current branch head.
 fast-forwarding your working tree from
-commit 99b9805c26df3be73cea3bde84d6e3a46e153942.
+commit 3f4c00b882f49e9390710cb594b4fd68da57a411.
 error: Your local changes to the following files would be overwritten by merge:
 	log
 Please commit your changes or stash them before you merge.
 Aborting
 fatal: Cannot fast-forward your working tree.
 After making sure that you saved anything precious from
-$ git diff 99b9805c26df3be73cea3bde84d6e3a46e153942
+$ git diff 3f4c00b882f49e9390710cb594b4fd68da57a411
 output, run
 $ git reset --hard
 to recover.
 git status:
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -27,5 +29,3 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
-d the repository exists.
-push git success!
