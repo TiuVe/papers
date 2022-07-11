@@ -5,21 +5,20 @@ exec script at 20220711-1137!
 git pull....
 warning: fetch updated the current branch head.
 fast-forwarding your working tree from
-commit 5e31388ddb777868f3baa61507bf55d1c8c75fe0.
+commit 4b87e7f7165f0606da7edb8ada1e14d72901c024.
 error: Your local changes to the following files would be overwritten by merge:
 	log
 Please commit your changes or stash them before you merge.
 Aborting
 fatal: Cannot fast-forward your working tree.
 After making sure that you saved anything precious from
-$ git diff 5e31388ddb777868f3baa61507bf55d1c8c75fe0
+$ git diff 4b87e7f7165f0606da7edb8ada1e14d72901c024
 output, run
 $ git reset --hard
 to recover.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 4 commits.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -28,3 +27,12 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+ommit (use "git add" and/or "git commit -a")
+git add .
+git commit -m 20220711-1137
+[main d78593a] 20220711-1137
+ 1 file changed, 14 insertions(+), 6 deletions(-)
+git push...
+To github.com:TiuVe/papers.git
+   979c23d..d78593a  main -> main
+push git success!
