@@ -3,15 +3,22 @@ git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
 exec script at 20220711-1157!
 git pull....
-kex_exchange_identification: read: Connection reset by peer
-Connection reset by 140.82.113.3 port 22
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit d2f43d50833ad8cb1e0d3b7067ff652a0646c57d.
+error: Your local changes to the following files would be overwritten by merge:
+	log
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff d2f43d50833ad8cb1e0d3b7067ff652a0646c57d
+output, run
+$ git reset --hard
+to recover.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 4 commits.
+Your branch is ahead of 'origin/main' by 5 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
@@ -21,3 +28,6 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+s
+and the repository exists.
+push git success!
