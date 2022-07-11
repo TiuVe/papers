@@ -1,23 +1,9 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220711-1009!
+exec script at 20220711-1010!
 git pull....
-From github.com:TiuVe/papers
-   9c7d33c..7204c4c  main       -> origin/main
-warning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit 30634eace6e810367ef383630a4160d000fd2e0b.
-error: Your local changes to the following files would be overwritten by merge:
-	log
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
-$ git diff 30634eace6e810367ef383630a4160d000fd2e0b
-output, run
-$ git reset --hard
-to recover.
+Already up to date.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -29,10 +15,3 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
-1-1008
-[main 7204c4c] 20220711-1008
- 1 file changed, 14 insertions(+), 6 deletions(-)
-git push...
-To github.com:TiuVe/papers.git
-   9c7d33c..7204c4c  main -> main
-push git success!
