@@ -3,23 +3,24 @@ git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
 exec script at 20220711-1009!
 git pull....
+From github.com:TiuVe/papers
+   9c7d33c..7204c4c  main       -> origin/main
 warning: fetch updated the current branch head.
 fast-forwarding your working tree from
-commit 765f53f03dd3da7e5063a4f0aacf496edf603a98.
+commit 30634eace6e810367ef383630a4160d000fd2e0b.
 error: Your local changes to the following files would be overwritten by merge:
 	log
 Please commit your changes or stash them before you merge.
 Aborting
 fatal: Cannot fast-forward your working tree.
 After making sure that you saved anything precious from
-$ git diff 765f53f03dd3da7e5063a4f0aacf496edf603a98
+$ git diff 30634eace6e810367ef383630a4160d000fd2e0b
 output, run
 $ git reset --hard
 to recover.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 5 commits.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -28,3 +29,10 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+1-1008
+[main 7204c4c] 20220711-1008
+ 1 file changed, 14 insertions(+), 6 deletions(-)
+git push...
+To github.com:TiuVe/papers.git
+   9c7d33c..7204c4c  main -> main
+push git success!
