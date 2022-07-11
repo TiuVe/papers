@@ -1,23 +1,17 @@
 git setting...
 git config --global user.useConfigOnly true
-error: could not lock config file /Users/dzb/.gitconfig: File exists
-------------------Twarning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit a1095c21663fe07b6174444cfeda8eb0b6ec34a3.
-error: Your local changes to the following files would be overwritten by merge:
-	log
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
-$ git diff a1095c21663fe07b6174444cfeda8eb0b6ec34a3
-output, run
-$ git reset --hard
-to recover.
+------------------TIUVE---------------------
+exec script at 20220711-1223!
+git pull....
+kex_exchange_identification: read: Connection reset by peer
+Connection reset by 140.82.113.3 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
