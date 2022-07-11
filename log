@@ -3,20 +3,42 @@ git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
 exec script at 20220711-0950!
 git pull....
-ssh: connect to host github.com port 22: Undefined error: 0
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit ef681dfb9d72541c2615cc01c24ee636ba24b968.
+error: Your local changes to the following files would be overwritten by merge:
+	log
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff ef681dfb9d72541c2615cc01c24ee636ba24b968
+output, run
+$ git reset --hard
+to recover.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 6 commits.
+Your branch is ahead of 'origin/main' by 7 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be commiOn branch main
+Your branch is ahead of 'origin/main' by 7 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git adgit add .
+." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   log
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+fatal: Unable to create '/Users/dzb/wsp/papers/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+git commit -m 20220711-0949
