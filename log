@@ -1,27 +1,12 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220711-1533!
+exec script at 20220711-1534!
 git pull....
-From github.com:TiuVe/papers
- + 3a8a729...bbecd25 main       -> origin/main  (forced update)
-warning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit bbecd251ada3bf3b8059fef47850f985b5c3996c.
-error: Your local changes to the following files would be overwritten by merge:
-	log
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
-$ git diff bbecd251ada3bf3b8059fef47850f985b5c3996c
-output, run
-$ git reset --hard
-to recover.
+Already up to date.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 6 commits.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -30,12 +15,3 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
-its remote counterpart. IntTo github.com:TiuVe/papers.git
-   72ae3a9..3a8a729  main -> main
-push git success!
-ee the 'Note about fast-forwards' in 'git push --help' for details.
-push git success!
-sh...
-To github.com:TiuVe/papers.git
-   bbecd25..72ae3a9  main -> main
-push git success!
