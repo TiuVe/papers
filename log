@@ -1,21 +1,9 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220711-1057!
+exec script at 20220711-1058!
 git pull....
-warning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit 708837d623336e0d307411f84f3e649a8695e1b5.
-error: Your local changes to the following files would be overwritten by merge:
-	log
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
-$ git diff 708837d623336e0d307411f84f3e649a8695e1b5
-output, run
-$ git reset --hard
-to recover.
+Already up to date.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -27,11 +15,3 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
-fatal: Unable to create '/Users/dzb/wsp/papers/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-git commit -m 20220711-1056
