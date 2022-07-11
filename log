@@ -1,7 +1,7 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220711-1017!
+exec script at 20220711-1018!
 git pull....
 Connection closed by 140.82.113.3 port 22
 fatal: Could not read from remote repository.
@@ -10,7 +10,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
+Your branch is ahead of 'origin/main' by 4 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
