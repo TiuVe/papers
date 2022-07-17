@@ -1,13 +1,11 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220717-1659!
+exec script at 20220717-2214!
 git pull....
-Connection closed by 140.82.113.3 port 22
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
+From github.com:TiuVe/papers
+   3c9d0853..b5727cce  main       -> origin/main
+Already up to date.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
