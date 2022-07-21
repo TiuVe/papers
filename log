@@ -3,11 +3,20 @@ git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
 exec script at 20220721-0854!
 git pull....
-hint: Pulling without specifying how to reconcile divergent branches ssh: connect to host github.com port 22: Operation timed out
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
+client_loop: send disconnect: Broken pipe
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 383d537a0407e419fdcefe5c803f7d78f71beee2.
+error: Your local changes to the following files would be overwritten by merge:
+	log
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 383d537a0407e419fdcefe5c803f7d78f71beee2
+output, run
+$ git reset --hard
+to recover.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -19,16 +28,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
-verride the configured default per
-hint: invocation.
-Already up to date.
-git status:
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+t will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   log
 
