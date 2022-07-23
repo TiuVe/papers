@@ -1,9 +1,14 @@
 git setting...
 git config --global user.useConfigOnly true
+error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20220724-0001!
+exec script at 20220724-0014!
 git pull....
-Already up to date.
+Connection to github.com closed by remote host.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
