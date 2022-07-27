@@ -2,9 +2,16 @@ git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20220727-2230!
+exec script at 20220728-0020!
 git pull....
-Already up to date.
+From github.com:TiuVe/papers
+   b52706a3..246a20ef  main       -> origin/main
+Updating b52706a3..246a20ef
+Fast-forward
+ ...viors for User Modeling and Recommendation.pdf" | Bin 1240461 -> 1270038 bytes
+ ...elf-Supervised Lifelong Behaviors Modeling.pdf" | Bin 0 -> 1097718 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\347\224\250\346\210\267\350\241\250\345\276\201/Learning Universal User Representations via Self-Supervised Lifelong Behaviors Modeling.pdf"
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
