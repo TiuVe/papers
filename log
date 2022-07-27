@@ -2,19 +2,18 @@ git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20220728-0020!
+exec script at 20220728-0228!
 git pull....
-From github.com:TiuVe/papers
-   b52706a3..246a20ef  main       -> origin/main
-Updating b52706a3..246a20ef
-Fast-forward
- ...viors for User Modeling and Recommendation.pdf" | Bin 1240461 -> 1270038 bytes
- ...elf-Supervised Lifelong Behaviors Modeling.pdf" | Bin 0 -> 1097718 bytes
- 2 files changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 "\347\224\250\346\210\267\350\241\250\345\276\201/Learning Universal User Representations via Self-Supervised Lifelong Behaviors Modeling.pdf"
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 140.82.113.3 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 git status:
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
