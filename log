@@ -4,14 +4,14 @@ error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
 exec script at 20220801-1607!
 git pull....
-ssh: connect to host github.com port 22: Undefined error: 0
+Connection closed by 140.82.113.3 port 22
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
+Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
@@ -21,3 +21,15 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+t -a")
+git add .
+git commit -m 20220801-1607
+[main e2492bd5] 20220801-1607
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+git push...
+ssh: connect to host github.com port 22: Undefined error: 0
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+push git success!
