@@ -1,2 +1,23 @@
 git setting...
 git config --global user.useConfigOnly true
+error: could not lock config file /Users/dzb/.gitconfig: File exists
+------------------TIUVE---------------------
+exec script at 20220803-0202!
+git pull....
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 8d0ae76cf11f606c5998c47c5f7a52e6c0116c54.
+Already up to date.
+git status:
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log
+
+no changes added to commiTo github.com:TiuVe/papers.git
+   8d0ae76c..1060ad35  main -> main
+push git success!
