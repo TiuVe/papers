@@ -1,8 +1,11 @@
 git setting...
 git config --global user.useConfigOnly true
+error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20220805-1234!
+exec script at 20220805-1235!
 git pull....
+From github.com:TiuVe/papers
+   6eba3683..29e537dc  main       -> origin/main
 Already up to date.
 git status:
 On branch main
@@ -15,3 +18,6 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+t
+   6eba3683..29e537dc  main -> main
+push git success!
