@@ -1,14 +1,9 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220806-2045!
+exec script at 20220806-2046!
 git pull....
-kex_exchange_identification: read: Connection reset by peer
-Connection reset by 140.82.113.3 port 22
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
+Already up to date.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
