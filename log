@@ -1,10 +1,7 @@
 git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
-------------------TIUVE---------------------
-exec script at 20220808-2050!
-git pull....
-Already up to date.
+------------------TAlready up to date.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
