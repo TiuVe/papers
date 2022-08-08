@@ -4,7 +4,23 @@ error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TAlready up to date.
 git status:
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is up to dwarning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit dd3ef11f9d7af4d3349816692b4e513d28a9a9c6.
+error: Your local changes to the following files would be overwritten by merge:
+	log
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff dd3ef11f9d7af4d3349816692b4e513d28a9a9c6
+output, run
+$ git reset --hard
+to recover.
+git status:
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
