@@ -1,16 +1,18 @@
 git setting...
 git config --global user.useConfigOnly true
+error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20220808-0225!
+exec script at 20220808-1005!
 git pull....
-ssh: connect to host github.com port 22: Undefined error: 0
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 140.82.113.3 port 22
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
+Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
