@@ -1,26 +1,13 @@
 git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
-------------------TAlready up to date.
+------------------TIUVE---------------------
+exec script at 20220809-1205!
+git pull....
+Already up to date.
 git status:
 On branch main
-Your branch is up to dwarning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit 8cad3d8d057a57d1c0a157e6fcf48f5228d9c3d5.
-error: Your local changes to the following files would be overwritten by merge:
-	log
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
-$ git diff 8cad3d8d057a57d1c0a157e6fcf48f5228d9c3d5
-output, run
-$ git reset --hard
-to recover.
-git status:
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
