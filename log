@@ -1,8 +1,9 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220810-2034!
+exec script at 20220810-2035!
 git pull....
+Connection to github.com closed by remote host.
 Already up to date.
 git status:
 On branch main
