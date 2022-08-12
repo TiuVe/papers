@@ -1,7 +1,7 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220812-2010!
+exec script at 20220812-2011!
 git pull....
 Already up to date.
 git status:
@@ -12,7 +12,6 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   log
-	modified:   "\347\224\250\346\210\267\350\241\250\345\276\201/CCFA_SIGIR2020 Parameter-Efficient Transfer from Sequential Behaviors for User Modeling and Recommendation.pdf"
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
