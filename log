@@ -2,7 +2,7 @@ git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20220813-0417!
+exec script at 20220813-0422!
 git pull....
 Already up to date.
 git status:
