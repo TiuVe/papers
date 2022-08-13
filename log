@@ -3,7 +3,11 @@ git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
 exec script at 20220813-1302!
 git pull....
-Already up to date.
+client_loop: send disconnect: Broken pipe
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -15,3 +19,5 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+  acf2ab78..8c33d5e6  main -> main
+push git success!
