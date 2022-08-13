@@ -6,6 +6,21 @@ git pull....
 Already up to date.
 git status:
 On branch main
+Your branch is up to dwarning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 0f21c30cf913fe2ad1f7bbc92e5de14de8f04225.
+error: Your local changes to the following files would be overwritten by merge:
+	log
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 0f21c30cf913fe2ad1f7bbc92e5de14de8f04225
+output, run
+$ git reset --hard
+to recover.
+git status:
+On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
