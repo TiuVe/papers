@@ -2,15 +2,19 @@ git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------Tclient_loop: send disconnect: Broken pipe
-warning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit 5eae64763d6b33763082a91331f06a4e6dada6a0.
-error: Your local changes to the following files would be overwritten by merge:
-	log
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
+fatal: expected flush after ref listing
+git status:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add .
+hing precious from
 $ git diff 5eae64763d6b33763082a91331f06a4e6dada6a0
 output, run
 $ git reset --hard
@@ -26,3 +30,10 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+git commit -m 20220813-1230
+[main 0d17f9c1] 20220813-1230
+ 1 file changed, 14 insertions(+), 4 deletions(-)
+git push...
+To github.com:TiuVe/papers.git
+   d4041313..0d17f9c1  main -> main
+push git success!
