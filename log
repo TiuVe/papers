@@ -1,25 +1,9 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220813-1859!
+exec script at 20220813-2000!
 git pull....
 Already up to date.
-git status:
-On branch main
-Your branch is up to dclient_loop: send disconnect: Broken pipe
-warning: fetch updated the current branch head.
-fast-forwarding your working tree from
-commit cce4245d30bb3ac8ff7c75afd3274a74811c406a.
-error: Your local changes to the following files would be overwritten by merge:
-	log
-Please commit your changes or stash them before you merge.
-Aborting
-fatal: Cannot fast-forward your working tree.
-After making sure that you saved anything precious from
-$ git diff cce4245d30bb3ac8ff7c75afd3274a74811c406a
-output, run
-$ git reset --hard
-to recover.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
