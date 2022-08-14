@@ -1,13 +1,12 @@
 git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
-------------------TIUVE---------------------
-exec script at 20220814-0026!
-git pull....
-Already up to date.
+------------------Tclient_loop: send disconnect: Broken pipe
+fatal: expected flush after ref listing
 git status:
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -16,3 +15,12 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+0814-0026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+git push...
+Connection closed by 140.82.113.3 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+push git success!
