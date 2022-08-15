@@ -1,9 +1,13 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20220815-1253!
+exec script at 20220815-1254!
 git pull....
-Already up to date.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
