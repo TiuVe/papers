@@ -1,7 +1,8 @@
 git setting...
 git config --global user.useConfigOnly true
+error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20220917-1800!
+exec script at 20220917-2000!
 git pull....
 Already up to date.
 git status:
@@ -12,6 +13,10 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	"\345\217\215\344\272\213\345\256\236\347\255\226\347\225\245\345\255\246\344\271\240/"
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
