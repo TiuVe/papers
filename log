@@ -1,7 +1,8 @@
 git setting...
 git config --global user.useConfigOnly true
+error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20221013-1200!
+exec script at 20221013-1400!
 git pull....
 kex_exchange_identification: read: Connection reset by peer
 Connection reset by 140.82.113.3 port 22
@@ -11,7 +12,8 @@ Please make sure you have the correct access rights
 and the repository exists.
 git status:
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
