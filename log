@@ -1,7 +1,7 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20230119-1600!
+exec script at 20230119-1800!
 git pull....
 Already up to date.
 git status:
@@ -12,6 +12,7 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   log
+	modified:   推荐/fm系列/Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising.pdf
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
