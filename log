@@ -1,8 +1,7 @@
 git setting...
 git config --global user.useConfigOnly true
-error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20230208-1600!
+exec script at 20230208-1800!
 git pull....
 Already up to date.
 git status:
@@ -13,10 +12,6 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   log
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	推荐/FiBiNET Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction.pdf
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
