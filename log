@@ -2,7 +2,7 @@ git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20230222-1600!
+exec script at 20230222-1800!
 git pull....
 Already up to date.
 git status:
@@ -10,9 +10,24 @@ On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   log
+	deleted:    自然语言处理/Attention Is All You Need.pdf
+	deleted:    自然语言处理/BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf
+	deleted:    自然语言处理/NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE.pdf
+	deleted:    自然语言处理/NIPS-2013-learning-word-embeddings-efficiently-with-noise-contrastive-estimation-Paper.pdf
+	deleted:    自然语言处理/Pre-trained Models for Natural Language Processing A Survey.pdf
+	deleted:    自然语言处理/word2vec/Distributed Representations of Words and Phrases and their Compositionality.pdf
+	deleted:    自然语言处理/word2vec/Efficient Estimation of Word Representations in Vector Space.pdf
+	deleted:    自然语言处理/word2vec/word2vec_中的数学原理详解.pdf
+	deleted:    自然语言处理/中文预训练模型研究进展_侯钰涛.pdf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	NLP/
+	推荐/Wide & Deep Learning for Recommender Systems.pdf
+	推荐/阿里系列/
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
