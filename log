@@ -2,7 +2,7 @@ git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20230309-1600!
+exec script at 20230309-2200!
 git pull....
 Already up to date.
 git status:
@@ -10,9 +10,14 @@ On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
+	deleted:    NLP/Key-Value Memory Networks for Directly Reading Document.pdf
 	modified:   log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	NLP/QA/Key-Value Memory Networks for Directly Reading Document.pdf
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
