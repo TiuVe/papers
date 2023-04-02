@@ -1,17 +1,16 @@
 git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
-------------------TIUVE---------------------
-exec script at 20230402-1001!
-git pull....
-ssh: connect to host github.com port 22: Undefined error: 0
+------------------Tkex_exchange_identification: read: Operation timed out
+banner exchange: Connection to 140.82.113.3 port 22: Operation timed out
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
 git status:
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -20,3 +19,12 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
+001
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+git push...
+ssh: connect to host github.com port 22: Undefined error: 0
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+push git success!
