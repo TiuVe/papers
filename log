@@ -1,7 +1,9 @@
 git setting...
 git config --global user.useConfigOnly true
+2023-07-31 10:00:02.727 xcodebuild[5382:95687631] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2023-07-31 10:00:02.727 xcodebuild[5382:95687631] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
 ------------------TIUVE---------------------
-exec script at 20230725-1800!
+exec script at 20230731-1000!
 git pull....
 Already up to date.
 git status:
