@@ -1,9 +1,10 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20240120-2200!
+exec script at 20240121-0000!
 git pull....
-client_loop: send disconnect: Broken pipe
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 140.82.113.3 port 22
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
@@ -19,6 +20,3 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 git add .
-t
-   052a680f9..3a7aca49f  main -> main
-push git success!
