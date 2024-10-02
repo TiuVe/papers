@@ -1,8 +1,9 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20241002-1400!
+exec script at 20241002-2000!
 git pull....
+client_loop: send disconnect: Broken pipe
 Already up to date.
 git status:
 On branch main
