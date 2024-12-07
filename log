@@ -1,10 +1,8 @@
 git setting...
 git config --global user.useConfigOnly true
 ------------------TIUVE---------------------
-exec script at 20241207-0800!
+exec script at 20241207-1002!
 git pull....
-From github.com:TiuVe/papers
-   b3f40c7ac..f65373bb4  main       -> origin/main
 Already up to date.
 git status:
 On branch main
