@@ -1,19 +1,12 @@
 git setting...
 git config --global user.useConfigOnly true
-error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20250414-1600!
+exec script at 20250415-1000!
 git pull....
-nc: connect to 127.0.0.1 port 7897 (tcp) failed: Connection refused
-kex_exchange_identification: Connection closed by remote host
-Connection closed by UNKNOWN port 65535
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
+Already up to date.
 git status:
 On branch main
-Your branch is ahead of 'origin/main' by 18 commits.
+Your branch is ahead of 'origin/main' by 19 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
