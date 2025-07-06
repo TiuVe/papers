@@ -2,8 +2,10 @@ git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20250706-1003!
+exec script at 20250707-0001!
 git pull....
+From github.com:TiuVe/papers
+   1e41b74fa..e10962d92  main       -> origin/main
 Already up to date.
 git status:
 On branch main
