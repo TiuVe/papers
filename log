@@ -2,10 +2,9 @@ git setting...
 git config --global user.useConfigOnly true
 error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20250709-1004!
+exec script at 20250710-0601!
 git pull....
-client_loop: send disconnect: Broken pipe
-fatal: expected flush after ref listing
+Already up to date.
 git status:
 On branch main
 Your branch is up to date with 'origin/main'.
