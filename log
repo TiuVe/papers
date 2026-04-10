@@ -1,8 +1,7 @@
 git setting...
 git config --global user.useConfigOnly true
-error: could not lock config file /Users/dzb/.gitconfig: File exists
 ------------------TIUVE---------------------
-exec script at 20260410-0600!
+exec script at 20260410-0800!
 git pull....
 Connection to github.com port 22 [tcp/ssh] succeeded!
 kex_exchange_identification: Connection closed by remote host
